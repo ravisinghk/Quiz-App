@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Open+Sans:wght@300;400&display=swap');
+
+body{
+    margin: 0%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#big-div{
+    margin: 0%;
+    overflow: hidden;
+    background-color: #F3F3FB;
+    /* border: 1px solid black; */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card-div{
+    min-width: 300px;
+    width: 35%;
+    height: 60%;
+    /* border: 1px solid black; */
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: white;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    margin: 0px 25px;
+}
+
+.sub-div{
+    /* border: 1px solid black; */
+}
+
+#heading-div{
+    height: 23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0px 10px;
+}
+
+#question-div{
+    height: 52%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* justify-content: center; */
+}
+
+
+#button{
+    height: 15%;
+    width: 100%;
+    border: none;
+    color: white;
+    background-color: #4370E7;
+    font-size: 1rem;
+    cursor: pointer;
+
+}
+
+
+#button:hover{
+    background-color: #4160b6;
+}
+
+ul{
+    /* border: 1px solid black; */
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.option{
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+input,label{
+    cursor: pointer;
+}
+
+label{
+    margin-left: 4px;
+}
+
+input{
+    width: 15px;
+    height: 15px;
+}
+
+/* .show_ans{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+} */
+
+@media screen and (max-width:1140px) {
+
+    #card-div{
+        width: 400px;
+    }
+
+    #heading-div{
+        font-size: 1.2rem;
+    }
+
+    
+}
+
+@media screen and (max-width:360px) {
+
+    #card-div{
+        width: 300px;
+    }
+
+    #heading-div{
+        font-size: 1.2rem;
+    }
+
+    
+}

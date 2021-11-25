@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz App</title>
+</head>
+<body>
+    <div id="big-div">
+        <div id="card-div">
+            <div id="heading-div" class="sub-div"></div>
+            <div id="question-div" class="sub-div">
+                <ul>
+                    <div class="option" id="option1"><input type="radio" name="answer" id="a" value="a"><label id="a_text" for="a"></label></div><br>
+                    <div class="option" id="option2"><input type="radio" name="answer" id="b" value="b"><label id="b_text" for="b"></label></div><br>
+                    <div class="option" id="option3"><input type="radio" name="answer" id="c" value="c"><label id="c_text" for="c"></label></div><br>
+                    <div class="option" id="option4"><input type="radio" name="answer" id="d" value="d"><label id="d_text" for="d"></label></div><br>
+                </ul>
+            </div>
+            <button id="button" class="sub-div" onclick="nextQuizData()">Submit</button>
+           
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
